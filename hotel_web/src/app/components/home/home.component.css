@@ -1,0 +1,54 @@
+.bkimg{
+    background: url('../../../assets/images/alexander-kaunas-xEaAoizNFV8-unsplash.png');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    filter: drop-shadow();
+}
+.margins{
+    padding: 15% 20%;
+}
+.verticle-center{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.verticle-center1{
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.phead{
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.phead1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.pdesc{
+    font-size: 20px;
+}
+
+.pdesc1{
+    font-size: 17px;
+}
+
+.row,p,html,body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.grad{
+    background-image: linear-gradient(#29346D , #010C45)
+}
+.grad1{
+    background-image: linear-gradient(#29346D , #29346D)
+}
