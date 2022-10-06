@@ -54,7 +54,8 @@
 }
 
 .grad{
-    padding: calc(var(--font-xxx-large)*2.1);
+    padding: calc(var(--font-xxx-large)*2.1) calc(var(--font-xxx-large)*4.1);
+    
     background-image: linear-gradient(#29346D , #010C45)
 }
 .grad1{
@@ -77,4 +78,17 @@
     padding-left:var(--padding-medium) ;
     padding-top: var(--padding-medium) ;
     height:calc(var(--font-xxx-large)*2);
+}
+
+
+
+/* footer */
+.footer-1{
+    padding: calc(var(--font-xxx-large)*2.1) calc(var(--font-xxx-large)*4.1);
+    
+}
+
+.footer-left{
+    padding:0 calc(var(--font-xxx-large)*4.1);
+   background-color: #273584;
 }
