@@ -1,0 +1,12 @@
+.nav-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+.nav-bar-logo{
+    padding-left:var(--padding-medium) ;
+    padding-top: var(--padding-medium) ;
+    height:calc(var(--font-xxx-large)*2);
+}
