@@ -53,14 +53,14 @@
     color: white;
 }
 
-.grad{
+.grad {
     padding: calc(var(--font-xxx-large)*2.1) calc(var(--font-xxx-large)*4.1);
-    
-    background-image: linear-gradient(#29346D , #010C45)
+    background-image: linear-gradient(#29346D, #010C45)
 }
-.grad1{
-     padding: calc(var(--font-xxx-large)*2.1);
-   background-color: #273584;
+
+.grad1 {
+    padding: calc(var(--font-xxx-large)*2.1);
+    background-color: #273584;
 }
 
 
@@ -92,3 +92,37 @@
     padding:0 calc(var(--font-xxx-large)*4.1);
    background-color: #273584;
 }
+
+@media screen and (max-width: 575px) {
+
+.phead{
+    font-size: calc(var(--font-xxx-large)*1) ;
+    font-weight: bold;
+}
+}
+
+
+@media screen and (max-width: 987px) {
+    .grad {
+        padding: 0px;
+        background-image: linear-gradient(#29346D, #010C45)
+    }
+    
+    .grad1 {
+        padding: 0px;
+        background-color: #273584;
+    }
+    .app-box{
+        border: none;
+        padding: 0px calc(var(--font-xxx-large)*0.5);
+    }
+    .pd{
+        padding: 10%;
+    }
+
+}
+
+
+
+
+
