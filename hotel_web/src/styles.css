@@ -114,6 +114,71 @@ body { font-family: 'Sarabun', sans-seri;}
 
     }
 
+} */
+@media (min-width:200px){
+
+    :root {
+       
+        --font-extra-small : 7px;
+        --font-small : 11px;
+        --font-medium: 15px;
+        --font-large: 18px;
+        --font-extra-large: 22px;
+        --font-xx-large:25px;
+    
+
+          
+        --padding-extra-small : 5px;
+    --padding-small : 9px;
+    --padding-medium: 14px;
+    --padding-large: 19px;
+    --padding-extra-large: 20px;
+
+    }
+
+}
+@media (min-width:400px){
+
+    :root {
+       
+        --font-extra-small : 7px;
+        --font-small : 11px;
+        --font-medium: 15px;
+        --font-large: 19px;
+        --font-extra-large: 23px;
+        --font-xx-large:27px;
+    
+
+            
+        --padding-extra-small : 7px;
+    --padding-small : 13px;
+    --padding-medium: 17px;
+    --padding-large: 21px;
+    --padding-extra-large: 25px;
+
+    }
+
+}
+@media (min-width:700px){
+
+    :root {
+       
+        --font-extra-small : 8px;
+        --font-small : 12px;
+        --font-medium: 16px;
+        --font-large: 20px;
+        --font-extra-large: 24px;
+        --font-xx-large:28px;
+    
+
+        
+        --padding-extra-small : 8px;
+        --padding-small : 14px;
+        --padding-medium: 18px;
+        --padding-large: 22px;
+        --padding-extra-large: 26px;
+    }
+
 }
 @media (min-width:1000px){
 
@@ -198,75 +263,12 @@ body { font-family: 'Sarabun', sans-seri;}
         --padding-extra-large: 20px;
     }
 
-} */
-
-
-
-@media (min-width:200px){
-
-    :root {
-       
-        --font-extra-small : 7px;
-        --font-small : 11px;
-        --font-medium: 15px;
-        --font-large: 18px;
-        --font-extra-large: 22px;
-        --font-xx-large:25px;
-    
-
-          
-        --padding-extra-small : 5px;
-    --padding-small : 9px;
-    --padding-medium: 14px;
-    --padding-large: 19px;
-    --padding-extra-large: 20px;
-
-    }
-
 }
-@media (min-width:400px){
 
-    :root {
-       
-        --font-extra-small : 7px;
-        --font-small : 11px;
-        --font-medium: 15px;
-        --font-large: 19px;
-        --font-extra-large: 23px;
-        --font-xx-large:27px;
-    
 
-            
-        --padding-extra-small : 7px;
-    --padding-small : 13px;
-    --padding-medium: 17px;
-    --padding-large: 21px;
-    --padding-extra-large: 25px;
 
-    }
 
-}
-@media (min-width:700px){
-
-    :root {
-       
-        --font-extra-small : 8px;
-        --font-small : 12px;
-        --font-medium: 16px;
-        --font-large: 20px;
-        --font-extra-large: 24px;
-        --font-xx-large:28px;
-    
-
-        
-        --padding-extra-small : 8px;
-        --padding-small : 14px;
-        --padding-medium: 18px;
-        --padding-large: 22px;
-        --padding-extra-large: 26px;
-    }
-
-}
+/*
 @media (min-width:1000px){
 
     :root {
@@ -344,7 +346,7 @@ body { font-family: 'Sarabun', sans-seri;}
         --padding-extra-large: 20px;
     }
 
-}
+} */
 
 ::-webkit-scrollbar {
     width: 10px; /* Remove scrollbar space */

@@ -62,8 +62,6 @@ col {
 
 .grad {
     padding: calc(var(--font-xxx-large)*2.1) calc(var(--font-xxx-large)*4.1);
-
-    background-image: linear-gradient(#29346D, #010C45)
 }
 
 .grad1 {
@@ -159,6 +157,9 @@ col {
     .phead{
         font-size: calc(var(--font-xxx-large)*1) ;
         font-weight: bold;
+    }
+    .grad {
+        padding: 0px;
     }
 }
 
