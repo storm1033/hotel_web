@@ -108,12 +108,12 @@
 
 @media screen and (max-width: 987px) {
     .grad {
-        padding: 0px;
+        padding: 15px 0px;
         background-image: linear-gradient(#29346D, #010C45)
     }
     
     .grad1 {
-        padding: 0px;
+        padding: 15px 0px;
         background-color: #273584;
     }
     .app-box{
