@@ -90,7 +90,7 @@
 
 .footer-left{
     padding:0 calc(var(--font-xxx-large)*4.1);
-   background-color: #273584;
+    background-color: #273584;
 }
 
 @media screen and (max-width: 575px) {
@@ -126,3 +126,10 @@
 
 
 
+.images{
+    width: auto;
+    height: fit-content;
+    display: block;
+    min-height: 30px;
+    max-height: 80px;
+}
