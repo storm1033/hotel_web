@@ -147,6 +147,13 @@ col {
     margin-left: 8px;
 }
 
+.paddingtandbonmoile{
+    padding: 0px 0px;
+}
+.paddingtandbonlaptop{
+    padding: 25px 0px;
+}
+
 @media screen and (max-width: 575px) {
     .conmob{
         justify-content: center;
@@ -195,6 +202,14 @@ col {
 }
 
 
+@media screen and (max-width: 987px) {
+    .paddingtandbonmoile{
+        padding: 15px 0px;
+    }
+    .paddingtandbonlaptop{
+        padding: 15px 0px;
+    }
+}
 
 
 a{
@@ -209,6 +224,10 @@ a{
     align-items: center;
     display: flex;
     padding: 0%;
-    height: 29px;
-    width: 29px;
+    height: 39px;
+    width: fit-content;
+    margin-right: 25px;
+}
+.linkclr{
+    color: #a1a1a1;
 }
