@@ -93,6 +93,10 @@
     background-color: #273584;
 }
 
+.paddingtandbonmoile{
+    padding: 0%;
+}
+
 @media screen and (max-width: 575px) {
 
 .phead{
@@ -118,6 +122,9 @@
     }
     .pd{
         padding: 10%;
+    }
+    .paddingtandbonmoile{
+        padding: 15px 0px;
     }
 
 }
