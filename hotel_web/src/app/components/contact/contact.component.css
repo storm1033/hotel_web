@@ -1,0 +1,171 @@
+.bkimg{
+    background: url('../../../assets/images/alexander-kaunas-xEaAoizNFV8-unsplash.png');
+    background-repeat: no-repeat;
+    object-fit: fill;
+
+   
+}
+.margins{
+    padding: 10% 20%;
+}
+
+.laptop{
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.laptop1{
+    margin-top: 14px;
+}
+
+.verticle-center{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.verticle-center1{
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.phead{
+    font-size: calc(var(--font-xxx-large)*2) ;
+    font-weight: bold;
+}
+
+.phead1{
+    font-size: calc(var(--font-xxx-large)*1.3);
+    font-weight: bold;
+}
+
+
+.pdesc{
+    font-size:var(--font-medium);
+    line-height: 1.7;
+}
+
+.pdesc1{
+    font-size: var(--font-medium);
+}
+.app-box{
+    border-right: solid 2px rgb(54, 69, 140);
+    padding: 0px calc(var(--font-xxx-large)*2);
+}
+
+.row,p,html,body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.grad {
+    padding: calc(var(--font-xxx-large)*0.8) calc(var(--font-xxx-large)*2.4);
+    /* background-image: linear-gradient(#29346D, #010C45) */
+}
+
+.grad1 {
+    padding: calc(var(--font-xxx-large)*2.1);
+    background-color: #273584;
+}
+
+
+ /* nav bar */
+
+
+ .nav-bar{
+    
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+.nav-bar-logo{
+    /* padding-left:var(--padding-medium) ;
+    padding-top: var(--padding-medium) ; */
+    height:calc(var(--font-xxx-large)*1.2);
+}
+
+
+
+/* footer */
+.footer-1{
+    padding: calc(var(--font-xxx-large)*2.1) calc(var(--font-xxx-large)*4.1);
+    
+}
+
+.footer-left{
+    padding:0 calc(var(--font-xxx-large)*4.1);
+    background-color: #273584;
+}
+
+.paddingtandbonmoile{
+    padding: 0%;
+}
+
+@media screen and (max-width: 575px) {
+
+.phead{
+    font-size: calc(var(--font-xxx-large)*1.3);
+    font-weight: bold;
+}
+}
+
+@media screen and (max-width: 767px) {
+
+    .grad {
+        /* padding: 15px 0px; */
+        background-image: linear-gradient(#29346D, #010C45)
+    }
+    }
+
+
+@media screen and (max-width: 987px) {
+    .grad {
+        padding: 15px 0px;
+        /* background-image: linear-gradient(#29346D, #010C45) */
+    }
+    
+    .grad1 {
+        padding: 15px 0px;
+        /* background-color: #273584; */
+    }
+    .app-box{
+        border: none;
+        padding: 0px calc(var(--font-xxx-large)*0.5);
+    }
+    .pd{
+        padding: 10%;
+    }
+    .paddingtandbonmoile{
+        padding: 15px 0px;
+    }
+
+}
+
+
+
+
+
+.images{
+    width: auto;
+    height: fit-content;
+    display: block;
+    min-height: 30px;
+    max-height: 80px;
+}
+
+.cardimg{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title , .card-text{
+    text-align: center;
+    color: #29346D;
+}
