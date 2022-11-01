@@ -13,6 +13,7 @@
     height: 100%;
     align-items: center;
     display: flex;
+    padding: 0%;
 }
 
 .laptop1{
@@ -43,14 +44,17 @@
     font-weight: bold;
 }
 
+.phead11{
+    font-size: calc(var(--font-xxx-large)*0.7);
+    font-weight: bold;
+}
 
 .pdesc{
-    font-size:var(--font-medium);
-    line-height: 1.7;
+    font-size: calc(var(--font-medium) * 0.7);
 }
 
 .pdesc1{
-    font-size: var(--font-medium);
+    font-size: calc(var(--font-medium) * 0.8);;
 }
 .app-box{
     border-right: solid 2px rgb(54, 69, 140);
@@ -66,6 +70,7 @@
 
 .grad {
     padding: calc(var(--font-xxx-large)*0.8) calc(var(--font-xxx-large)*2.4);
+    padding-right: 0px;
     /* background-image: linear-gradient(#29346D, #010C45) */
 }
 
@@ -168,4 +173,8 @@
 .card-title , .card-text{
     text-align: center;
     color: #29346D;
+}
+
+.card{
+    background-color: #dadfff;
 }
