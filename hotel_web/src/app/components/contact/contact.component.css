@@ -17,7 +17,7 @@
 }
 
 .laptop1{
-    margin-top: 14px;
+    margin-top: 0px;
 }
 
 .verticle-center{
@@ -71,6 +71,8 @@
 .grad {
     padding: calc(var(--font-xxx-large)*0.8) calc(var(--font-xxx-large)*2.4);
     padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0%;
     /* background-image: linear-gradient(#29346D, #010C45) */
 }
 
@@ -139,6 +141,9 @@
     .grad1 {
         padding: 15px 0px;
         /* background-color: #273584; */
+    }
+    .laptop1{
+        margin-top: 14px;
     }
     .app-box{
         border: none;
